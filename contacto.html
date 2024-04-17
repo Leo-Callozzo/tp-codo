@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="fontawesome/fontawesome-free-6.5.2-web/css/all.css"
+    />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="divImagen">
+        <img src="imagenes/logo_sinfondo.png" alt="Saga Logo" />
+        <!--Cambiar ruta si se requiere-->
+      </div>
+      <nav class="navbar">
+        <ul class="itemsNavbar">
+          <li class="elementoNavbar"><a href="#">Inicio</a></li>
+          <li class="elementoNavbar"><a href="#">Sobre Nosotros</a></li>
+          <li class="elementoNavbar"><a href="#">Nuestros Productos</a></li>
+          <li class="elementoNavbar"><a href="#">Contactanos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contacto">
+        <h2>Contactanos</h2>
+      </div>
+      <br /><br /><br />
+      <section class="contenedor">
+        <div class="info">
+          <p>
+            <i class="fa-regular fa-clock"></i>Lunes a Viernes de 9 a 18 hs.
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>Billinghurts - San Martín
+          </p>
+          <br />
+          <iframe
+            class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26281.94360472498!2d-58.58979253704614!3d-34.57271868249909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9ba2eb211cb%3A0x3ec17e9ad0d66820!2sBillinghurst%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1713031086524!5m2!1ses-419!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div></div>
+        <div class="formulario">
+          <form class="form">
+            <label for="Nombre">Nombre</label><br />
+            <input size="35" type="text" name="Nombre" /><br /><br />
+            <label for="Email">Email</label><br />
+            <input size="35" type="email" name="Email" /><br /><br />
+            <label for="consulta">¿Como nos conociste?</label><br /><br />
+            <select name="consulta">
+              <option>Instagram</option>
+              <option>Facebook</option>
+              <option>Recomendado</option>
+              <option>Otro</option>
+            </select>
+            <br /><br />
+            <label for="ofertas"
+              >¿Te gustaría recibir nuestras ofertas por Email?</label
+            >
+            <input class="check" type="checkbox" id="ofertas" value="Si" />
+            <label for="ofertas">Sí</label>
+            <br /><br />
+            <label for="mensaje">Mensaje</label>
+            <br />
+            <textarea id="mensaje" name="mensaje" rows="8" cols="38"></textarea>
+            <br /><br />
+            <button class="boton" type="submit" form="form1" value="submit">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="enlaces">
+        <div class="redes">
+          <p>Seguinos en:</p>
+        </div>
+        <a href="https://www.instagram.com/saga.calcos" target="_blank">
+          <img
+            src="imagenes/icono-instagram.png"
+            alt="Icono Instagram"
+            class="ico"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61556001547471&sk=about&locale=es_LA"
+          target="_blank"
+        >
+          <img
+            src="imagenes/icono-facebook.png"
+            alt="Icono Facebook"
+            class="ico"
+          />
+        </a>
+      </div>
+      <div class="derechos">
+        <p>Saga Calcos 2024 - Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
