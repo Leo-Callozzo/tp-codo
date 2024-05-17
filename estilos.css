@@ -228,8 +228,7 @@ footer {
 }
 
 .ico:hover {
-    height: 50px;
-    width: 50px;
+    transform: scale(1.2);
     transition: 0.2s;
 }
 
