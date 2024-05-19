@@ -49,11 +49,14 @@
         </div>
         <div></div>
         <div class="formulario">
-          <form class="form">
+          <form class="form" id="formulario">
             <label for="Nombre">Nombre</label><br />
-            <input size="35" type="text" name="Nombre" /><br /><br />
+            <input size="35" type="text" name="Nombre" id="nombre" placeholder="Escribe aqui tu nombre"/><br /><br />
             <label for="Email">Email</label><br />
-            <input size="35" type="email" name="Email" /><br /><br />
+            <input size="35" type="email" name="Email" id="email" placeholder="correo@correo.com"/><br /><br />
+          <div class="mensajeErr">
+            <strong id="mensajeError" class="ocultar">El formato de correo es incorrecto. Debe contener "@"</strong>
+          </div><br>
             <label for="consulta">¿Como nos conociste?</label><br /><br />
             <select name="consulta">
               <option>Instagram</option>
@@ -62,19 +65,21 @@
               <option>Otro</option>
             </select>
             <br /><br />
-            <label for="ofertas"
-              >¿Te gustaría recibir nuestras ofertas por Email?</label
-            >
+            <label for="ofertas">¿Te gustaría recibir nuestras ofertas por Email?</label>
+              
             <input class="check" type="checkbox" id="ofertas" value="Si" />
             <label for="ofertas">Sí</label>
             <br /><br />
             <label for="mensaje">Mensaje</label>
             <br />
-            <textarea id="mensaje" name="mensaje" rows="8" cols="38"></textarea>
+            <textarea id="mensaje" name="mensaje" rows="8" cols="38" placeholder="Escibe aqui tu consulta"></textarea>
             <br /><br />
             <button class="boton" type="submit" form="form1" value="submit">
               Enviar
             </button>
+          <div class="mensajeOk">
+            <strong class="ocultar" id="mensajeEnviado">Mensaje enviado ¡Gracias por contactarnos!</strong>
+          </div>
           </form>
         </div>
       </section>
@@ -106,5 +111,6 @@
         <p>Saga Calcos 2024 - Todos los derechos reservados</p>
       </div>
     </footer>
+    <script src="formulario.js"></script>
   </body>
 </html>

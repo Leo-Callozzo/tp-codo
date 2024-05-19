@@ -50,10 +50,9 @@ body header nav ul li a:hover {
     /*border-bottom: #ffffff 2px solid;*/
 }
 
-body header nav ul li a:focus {
-    /*border-bottom: #030100 2px solid;*/
-}
-
+/*body header nav ul li a:focus {
+    border-bottom: #030100 2px solid;
+}*/
 
 
 
@@ -148,11 +147,28 @@ label {
 }
 
 input {
-    border-width: 1px;
+    background-color: #fff;
+    border: 2px solid gainsboro;
     border-radius: 5px;
     height: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
+}
+
+.mensajeErr {
+   
+    color:rgb(255, 93, 93);
+}
+
+.mensajeOk {
+    color:rgb(20, 118, 20);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+input:focus{
+    border: 2px solid rgb(194, 179, 137);
+    outline:none;
 }
 
 .check {
@@ -165,18 +181,30 @@ input {
 select {
     height: 27px;
     width: 150px;
+    border: 2px solid gainsboro;
     border-radius: 5px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     text-align: center;
 }
 
+select:focus {
+    border: 2px solid rgb(194, 179, 137);
+    outline:none;
+}
 
 textarea {
-    border-width: 1px;
+    background-color: #fff;
+    border: 2px solid gainsboro;
+    /*border-width: 1px;*/
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
+}
+
+textarea:focus {
+    border: 2px solid rgb(194, 179, 137);
+    outline:none;
 }
 
 .boton {
@@ -199,6 +227,14 @@ textarea {
     background-color: rgb(194, 179, 137);
     color:white;
     cursor: pointer;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar{
+    display: block;
 }
 
 footer {
