@@ -50,12 +50,6 @@ body header nav ul li a:hover {
     /*border-bottom: #ffffff 2px solid;*/
 }
 
-/*body header nav ul li a:focus {
-    border-bottom: #030100 2px solid;
-}*/
-
-
-
 body {
     background-color:rgb(255, 250, 234);
     
@@ -109,7 +103,9 @@ body {
 h2 {
     text-align: center;
     margin: 5px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: "Amaranth", sans-serif;
+    font-size: 30px;
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif; */
     color:rgb(0, 0, 0);
 }
 
@@ -121,9 +117,10 @@ body section div h2{
 
 p {
     padding: 10px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Amaranth", sans-serif;
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
 }
 
 .formulario {
@@ -348,4 +345,11 @@ footer {
    .derechos p {
     font-size: 16px;
    }
+
+   .ico {
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    }
+    
 }
