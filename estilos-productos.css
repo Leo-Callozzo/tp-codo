@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 222, 195); 
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    margin: 0;
+}
+
+body header div img {
+    display:flex;
+    align-items: center;
+    height: 55px;
+    width: auto;
+    margin:5px 5px 5px 15px;
+}
+
+body header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body header nav ul li {
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+body header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: .5s;
+    
+}
+
+body header nav ul li a:hover {
+    color: #707070; 
+}
+
+body {
+    background-color:rgb(255, 250, 234);
+    
+}
+
+.portada{
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgb(231, 222, 195);
+    
+     
+}
+
+.img-portada{
+    padding: 10px;
+    border-radius: 35px;
+    
+}
+
+.titulo h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 60px;
+    color:rgb(130, 121, 20);
+    text-align: center;
+    padding: 50px;
+}
+
+.contenedor-productos {
+    width:75%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+}
+
+.cards {
+    background-color: rgb(231, 222, 195);
+}
+
+.imagen-sec {
+    height: 300px;
+    background-color: rgb(255, 250, 234);
+    
+}
+
+.cards .img-1 {
+    background-image: url('imagenes/calcos/Bartman.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-2 {
+    background-image: url('imagenes/calcos/bombon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-3 {
+    background-image: url('imagenes/calcos/cala.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-4 {
+    background-image: url('imagenes/calcos/Calavera.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-5 {
+    background-image: url('imagenes/calcos/chijiro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-6 {
+    background-image: url('imagenes/calcos/Crash.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-7 {
+    background-image: url('imagenes/calcos/goku.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-8 {
+    background-image: url('imagenes/calcos/Gorillaz.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-9 {
+    background-image: url('imagenes/calcos/jesus.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-10 {
+    background-image: url('imagenes/calcos/majin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-11 {
+    background-image: url('imagenes/calcos/ManoFY.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-12 {
+    background-image: url('imagenes/calcos/Michael_Th.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-13 {
+    background-image: url('imagenes/calcos/MonkeyDLuffy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-14 {
+    background-image: url('imagenes/calcos/Ojo_Sk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-15 {
+    background-image: url('imagenes/calcos/pantera.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-16 {
+    background-image: url('imagenes/calcos/Rick_Morty.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-17 {
+    background-image: url('imagenes/calcos/Roshi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-18 {
+    background-image: url('imagenes/calcos/SkeletorHM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-19 {
+    background-image: url('imagenes/calcos/Thanos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-20 {
+    background-image: url('imagenes/calcos/xmen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenido {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.contenido h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(130, 121, 20);
+}
+
+.contenido h3 {
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(130, 121, 20);
+}
+
+footer {
+    background-color: rgb(231, 222, 195);
+    margin-top: 35px;
+}
+
+.enlaces {
+    display:flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.redes p {
+    display:inline;
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ico {
+    height: 40px;
+    width: 40px;
+    margin:10px;
+}
+
+.ico:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.derechos p {
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media (max-width: 800px){
+    .portada{
+        display: block;
+        text-align: center;
+        margin-top: 80px;
+           
+        }
+    
+        .img-portada {
+            height: auto;
+            width: 800px;
+            margin: 0;
+            padding: 0;
+            border-radius: 0;
+        }
+
+        .contenedor-productos {
+            width:90%;
+            height: auto;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap:20px;
+        }
+}
+
+@media (max-width: 480px){
+    body header nav ul li a {
+    font-size: 13px;
+    
+    
+   }
+
+   body header nav ul li{
+    margin:5px;
+    text-align: center;
+    
+   }
+   
+
+   body header div img{
+    height: 40px;
+    margin-left: 10px;
+    
+   
+   }
+
+   .portada{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+   
+
+
+    }
+
+    .img-portada {
+        height: 140px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .titulo h1 {
+        font-size: 40px;
+    }
+
+    .contenedor-productos {
+        width:90%;
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+
+    .derechos p {
+        font-size: 16px;
+    }
+
+}
